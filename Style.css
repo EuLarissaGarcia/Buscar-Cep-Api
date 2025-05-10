@@ -1,0 +1,163 @@
+:root {
+    /* Cores principais */
+    --primary-color: #457687;
+    --accent-color: #FFC801;
+    --dark-text: #1B2E35;
+    --light-text: #ffffff;
+    --background: white;
+    
+    /* Cores secundárias */
+    --border-color: #DCDCDC;
+    --disabled-bg: #f8f9fa;
+    --disabled-text: #101213;
+    
+    /* Efeitos */
+    --shadow: 0 4px 20px rgba(0,0,0,0.1);
+    --primary-rgb: 69, 118, 135; /* Para uso com opacidade */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: var(--background);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container {
+    background: var(--primary-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.header {
+    background: var(--accent-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.header h1 {
+    color: var(--dark-text);
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    color: var(--light-text);
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+input {
+    border: 2px solid var(--border-color);
+    color: var(--dark-text);
+}
+
+input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.2);
+}
+
+input[disabled] {
+    background: var(--disabled-bg);
+    color: var(--disabled-text);
+}
+
+
+.form-container {
+    padding: 25px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.tittle {
+    flex-direction: column;
+}
+
+.image-container {
+    flex: 1;
+    max-width: 450px;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+    transform: scale(1.02) rotate(-1deg);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    width: 90%;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        gap: 0px;
+        padding: 30px 15px;
+    }
+
+    .tittle {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .container {
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .image-container {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .header {
+        padding: 15px;
+        border-radius: 12px;
+    }
+
+    .header h1 {
+        font-size: 1rem;
+    }
+
+    input {
+        max-width: 90%;
+        padding: 5px 5px;
+        font-size: 0.9rem;
+    }
+
+    .form-container {
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 3%;
+}
+
+
+}
