@@ -3,17 +3,7 @@
 Este repositório contém o código-fonte do arquivo viacep.html, utilizado como exemplo no curso de extensão "Trabalhando com APIs C# e JavaScript" para demonstrar o consumo da API do ViaCEP, uma API pública para buscar informações de endereços a partir de um CEP.
 
 ![preview profile.](https://imgur.com/WoxgXSn.png)
-
-
-### Funcionalidades  
-- Validação automática de formato de CEP  
-- Preenchimento automático de dados de endereço  
-- Design responsivo e acessível  
-- Feedback visual claro para usuários  
-- Transições suaves e efeitos hover  
-
-
-
+![preview profile.](https://imgur.com/KnWMjrP.png)
 ---
 
 ##  Paleta de Cores
@@ -26,13 +16,18 @@ Este repositório contém o código-fonte do arquivo viacep.html, utilizado como
 | `--light-text`      | `#FFFFFF`    | Textos em fundos escuros         |
 | `--background`      | `#FFFFFF`    | Cor de fundo da página           |
 
-```sh
-![preview profile.](https://imgur.com/4ea3rye.png)
-```
 
 
 ---
-###  Tabela de Classes CSS  
+## Funcionalidades  
+- Validação automática de formato de CEP  
+- Preenchimento automático de dados de endereço  
+- Design responsivo e acessível  
+- Feedback visual claro para usuários  
+- Transições suaves e efeitos hover  
+
+
+##  Tabela de Classes CSS  
 
 | Classe               | Função                                                                |  
 |----------------------|----------------------------------------------------------------------|  
@@ -43,8 +38,8 @@ Este repositório contém o código-fonte do arquivo viacep.html, utilizado como
 | `.tittle`            | Container do título e imagem lateral                                |  
 | `.form-container`    | Área interna de padding para o formulário                           |  
 
----
-###  Como Usar
+
+##  Como Usar
 
 1. **Digite o CEP**  
    Insira um número de 8 dígitos no campo indicado  
@@ -63,7 +58,7 @@ Este repositório contém o código-fonte do arquivo viacep.html, utilizado como
 
 
 ---
-### API Utilizada  
+## API Utilizada  
 
 **ViaCEP** - Serviço gratuito para consulta de CEPs brasileiros  
 
