@@ -80,8 +80,9 @@ Este repositório contém o código-fonte do arquivo viacep.html, utilizado como
 | **Poppins**          | Tipografia    | [fonts.google.com](https://fonts.google.com/specimen/Poppins)      |
 
 ---
-## Contato
-- **GitHub:** [@EuLarissaGarcia](https://github.com/EuLarissaGarcia)
-- **LinkedIn:** [@eularissagarcia](https://www.linkedin.com/in/eularissagarcia)
-
-
+## Autores
+| **Larissa Garcia** | **Amanda Errera** |
+|:------------------:|:-----------------:|
+| ![preview profile.](https://imgur.com/HC7cm66.png) | ![preview profile.](https://imgur.com/KXXBWuN.png) |
+| [GitHub](https://github.com/EuLarissaGarcia) | [GitHub](https://github.com/Amanyti) |
+| [LinkedIn](https://www.linkedin.com/in/eularissagarcia) | [LinkedIn](https://www.linkedin.com/in/amanda-errera-de-queiroz/) |
